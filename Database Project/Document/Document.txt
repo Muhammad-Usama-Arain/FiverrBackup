@@ -1,0 +1,45 @@
+--Database Design
+
+Q: Identify the structured and less structured data sources needed in order to study the car
+   market study of the 3 countries
+
+Structured data vs. unstructured data: structured data is comprised of clearly defined data types whose pattern makes them easily searchable; while unstructured data – “everything else” – is comprised of data that is usually not as easily searchable, including formats like audio, video, and social media postings.
+
+Structured data is highly-organized and formatted in a way so it's easily searchable in relational databases. Unstructured data has no pre-defined format or organization, making it much more difficult to collect, process, and analyze,
+
+Structured: Think of data that fits neatly within fixed fields and columns in relational databases and spreadsheets. The programming language used for managing structured data is called structured query language, also known as SQL
+
+Unstructured: Unstructured data is difficult to deconstruct because it has no pre-defined model, meaning it cannot be organized in relational databases. Instead, non-relational, or NoSQL databases, are best fit for managing unstructured data. Example may include mongoDB which is quite efficient way to handle JSON format data. 
+
+Q: Design the conceptual models for the databases
+Ans: Done see Attachment!
+
+Q: Select what DBMS you want to use for the implementation and justify your choice
+
+I will use MySQL and Microsoft Access DBMS these are the most popular databases around the world, there exists plenty of documentation so, one can easily refer to it's documentation and ask questions on blogs without wasting time. Another reason for using structure query language (i.e. SQL) is working on unstructured data involves much more complexity than to structured data.
+
+Q: Done see Attachment!
+
+
+ --Datawarehouse Design
+
+Q: Design the Datawarehouse distributed architecture using a suitable modeling language and
+including the external data sources
+
+ A:This is a very important step in the data warehousing project. Indeed, it is fair to say that the foundation of the data warehousing system is the data model. A good data model will allow the data warehousing system to grow easily, as well as allowing for good performance.
+
+In data warehousing project, the logical data model is built based on user requirements, and then it is translated into the physical data model. The detailed steps can be found in the Conceptual, Logical, and Physical Data Modeling section.
+
+
+/***
+Regardless of the strength of the OLAP engine and the integrity of the data, if the users cannot visualize the reports, the data warehouse brings zero value to them. Hence front end development is an important part of a data warehousing initiative.
+
+So what are the things to look out for in selecting a front-end deployment methodology? The most important thing is that the reports should need to be delivered over the web, so the only thing that the user needs is the standard browser. These days it is no longer desirable or feasible to have the IT department doing program installations on end users desktops just so that they can view reports. So, whatever strategy one pursues, make sure the ability to deliver over the web is a must.
+
+The front-end options ranges from an internal front-end development using scripting languages such as ASP, PHP, or Perl, to off-the-shelf products such as Seagate Crystal Reports, to the more higher-level products such as Actuate. In addition, many OLAP vendors offer a front-end on their own. When choosing vendor tools, make sure it can be easily customized to suit the enterprise, especially the possible changes to the reporting requirements of the enterprise. Possible changes include not just the difference in report layout and report content, but also include possible changes in the back-end structure. For example, if the enterprise decides to change from Solaris/Oracle to Microsoft 2000/SQL Server, will the front-end tool be flexible enough to adjust to the changes without much modification?
+
+Another area to be concerned with is the complexity of the reporting tool. For example, do the reports need to be published on a regular interval? Are there very specific formatting requirements? Is there a need for a GUI interface so that each user can customize her reports?
+
+***/
+
+informatica payed, talend open studio open source, tableau pay
